@@ -1,3 +1,5 @@
 self.addEventListener('push',()=>{
-    self.registration.sendNotification('test notification',{})
+    ​self.serviceWorkerRegistration.showNotification('hello world', {});
+    
+  
 })
